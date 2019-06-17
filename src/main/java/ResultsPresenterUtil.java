@@ -4,7 +4,7 @@ import java.util.List;
 
 public class ResultsPresenterUtil {
 
-    static void multilayerPerception() {
+    static void printResults() {
         MultilayerPerceptron multilayer1 = new MultilayerPerceptron(2,4,-0.5,0.5, false);
         MultilayerPerceptron multilayer2 = new MultilayerPerceptron(2,4,-0.5,0.5, true);
 
@@ -99,4 +99,5 @@ public class ResultsPresenterUtil {
          * BAIS active - all 4 patterns trained
          */
     }
+
 }
